@@ -3,3 +3,12 @@ git add <confilct file>
 git reset HEAD^
 git log -p -1 
 
+brunch delete
+git branch -d mouseMovingTest
+
+create new brunch and checkout
+git brunch <name>
+git checkout <name>
+
+create a git branch and checkout in one command 
+git checkout -b <name>
