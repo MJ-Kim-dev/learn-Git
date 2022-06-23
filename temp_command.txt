@@ -12,3 +12,14 @@ git checkout <name>
 
 create a git branch and checkout in one command 
 git checkout -b <name>
+
+Push remote branch 
+git push -u origin <name>
+-u : short for --set-upstream
+
+Delete remote branch 
+git push origin --delete newBranch
+
+
+Create new brunch from previous commit 
+git checkout -b branchname <sha1-of-commit or HEAD~3>
